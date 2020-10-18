@@ -15,9 +15,9 @@ public class Demo {
 		
 		shoppingCart.removeProduct(milk);
 		
-		//shoppingCart.pay(new PaypalAlgorithm("shereen@example.com", "123"));
+		shoppingCart.pay(new PaypalAlgorithm("shereen@example.com", "123"));
 		
-		shoppingCart.pay(new CreditCardAlgorithm("shereen", "123456789"));
+		//shoppingCart.pay(new CreditCardAlgorithm("shereen", "123456789"));
 
 	}
 

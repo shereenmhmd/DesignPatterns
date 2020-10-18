@@ -2,8 +2,8 @@ package StrategyPattern;
 
 public class CreditCardAlgorithm  implements Payment{ //concrete strategy class
 	
-	String name;
-	String cardNumber;
+	private String name;
+	private String cardNumber;
 
 	public CreditCardAlgorithm(String name, String cardNumber) {
 		super();

@@ -1,8 +1,8 @@
 package StrategyPattern;
 
 public class PaypalAlgorithm  implements Payment{//concrete strategy class
-	String email;
-	String password;
+	private String email;
+	private String password;
 
 	public PaypalAlgorithm(String email, String password) {
 		super();

@@ -2,8 +2,8 @@ package StrategyPattern;
 
 public class Product {
 	
-	int price;
-	String code;
+	private int price;
+	private String code;
 	public Product(int price, String code) {
 		super();
 		this.price = price;
